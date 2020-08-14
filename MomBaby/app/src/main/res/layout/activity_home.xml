@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    tools:context=".HomeActivity">
+
+
+    <ImageButton
+        android:id="@+id/Em_img"
+        android:layout_width="125dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/emergency" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heading" />
+
+    <ImageButton
+        android:id="@+id/activityButton"
+        android:layout_width="130dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/Em_img"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/feeder" />
+
+    <ImageButton
+        android:id="@+id/storeLocator"
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/RemindButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/activityButton"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/store" />
+
+    <ImageButton
+        android:id="@+id/RemindButton"
+        android:layout_width="135dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Em_img"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/reminders" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

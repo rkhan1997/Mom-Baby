@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mom&amp;Baby</string>
+    <string name="title_activity_nearby_stores_map">Map</string>
+    <string name="search_for_nearby_stores">SEARCH FOR NEARBY STORES</string>
+</resources>
